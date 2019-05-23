@@ -1,0 +1,129 @@
+html{
+	height: 100%;
+}
+body{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background:  
+	  url(../images/后台登录001_0002s_0000_矩形-8-拷贝-3.png) 0 0 no-repeat,
+	  url(../images/后台登录001_0002s_0001_矩形-8-拷贝-2.png) 0 0 no-repeat,
+	  url(../images/后台登录001_0002s_0002_矩形-8-拷贝.png) 0 0 no-repeat,
+	  url(../images/后台登录001_0002s_0003_矩形-8.png) 0 0 no-repeat,
+	  url(../images/后台登录001_0001_背景.png) 0 0 no-repeat;
+
+	font-family: Microsoft YaHei;
+	font-size: 12px;
+}
+
+.login_container{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	width: 50%;
+	height: 70%;
+
+}
+
+/**左侧*/
+.login_left{
+	float: left;
+	width:35%; 
+	height:100%;
+	background:  url(../images/后台登录001_0001s_0001_photo.png) 0 0 no-repeat;
+}
+
+.login_right{
+	width: 65%;
+	height: 100%;
+	float: left;
+	
+
+	display: -webkit-flex;
+display: flex;
+-webkit-align-items: center;
+align-items: center;
+-webkit-justify-content: center;
+justify-content: center;
+flex-direction: column;
+
+    background-color: #fff;
+
+    background-image:url("../images/后台登录001_0000s_0013_》.png"),url("../images/后台登录001_0000s_0014_》.png");
+	background-repeat: no-repeat, no-repeat;  
+	background-position: right top, right bottom; 
+
+	margin-bottom: -10px;
+}
+
+.flex_item{
+	margin-bottom: 10px;
+	width: 60%;
+}
+
+.login_top{
+	float: left;
+	margin-top: 110px;
+	margin-left: 90px;
+	width: 65%;
+	height: 20%;
+}
+
+.item1{
+	height: 80px;
+	color: #7bae5f;
+}
+.item1 > font{
+	color: #000;
+	font-size: 36px;
+
+}
+
+.sing_in{
+
+	
+}
+
+.item2 >input,.item3 > input{
+	/* padding-left: 30px; */
+	text-indent: 20px;
+	height: 30px;
+	width: 100%;
+	
+	border-bottom: solid #e6e6e6 1px;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+}
+
+
+.login_username{
+	background:  url(../images/后台登录001_0000s_0002_手机——icon.png) left bottom no-repeat;
+}
+
+.login_pwd{
+	background:  url(../images/后台登录001_0000s_0005_密码——icon.png) 0 0 no-repeat;
+}
+.item4{
+	height: 30px;
+}
+
+.item4 > input{
+	border-color: #7bae5f;
+}
+
+.item4 > a{
+	float: right;
+	color: #7bae5f;
+}
+.item5{
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	background: #7bae5f;
+	color: #fff;
+	border-radius: 3px;
+}
